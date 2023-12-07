@@ -80,7 +80,7 @@ document.fonts.load("30px Inconsolata").then(
     ctx.fontStretch = "semi-condensed";
     ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 140);
 
-    ctx.fontStretch = "extra-condensed";
+    ctx.fontStretch = "normal";
     ctx.fillText(`Hello world (${ctx.fontStretch})`, 5, 170);
 
     ctx.fontStretch = "semi-expanded";
